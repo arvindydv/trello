@@ -261,3 +261,34 @@ button, svg, .card{
     border-radius: 50%;
     font-size: 18px;
 }
+
+
+
+@media screen and (max-width: 660px) {
+
+    .add-board-btn-container {
+        width: 60%;
+    }
+    .add-board-form-container {
+        width: 260px;
+        position: absolute;
+        left: 6rem;
+    }
+    .board{
+        min-width: 230px;
+        margin-right: 5px;
+        padding: 10px;
+        margin-left: 9px;
+    
+    }
+    
+    .boards{
+        flex-wrap: nowrap;
+    }
+    .modal-conatiner {
+        width: 95%;
+    }
+
+
+
+}
